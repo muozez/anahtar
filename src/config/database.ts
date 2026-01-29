@@ -1,5 +1,5 @@
-import mongoose from "mongoose";
-import secrets from "./dotenv.ts";
+import mongoose from 'mongoose';
+import secrets from './dotenv.ts';
 
 export const connectDB = async () => {
   await mongoose.connect(secrets.mongodbUri);
